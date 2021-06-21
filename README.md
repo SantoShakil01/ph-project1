@@ -1,1 +1,1 @@
-# ph-project1
+# Programming Hero (Project 1)
