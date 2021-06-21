@@ -39,3 +39,49 @@ body {
 .sideBySide img {
   width: 100%;
 }
+
+.dream-area {
+  padding: 80px 40px;
+  overflow: hidden;
+  background-image: url("../images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-area {
+  padding: 50px 0px;
+  overflow: hidden;
+  background-image: url("../images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-area .half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 300px;
+}
+.experience-area .half-width h2 {
+  font-size: 30px;
+  line-height: 35px;
+}
+.experience-area .half-width h3 {
+  color: orange;
+}
+.experience-area .half-width p {
+  font-size: 18px;
+  line-height: 25px;
+}
+.experience-area .experience-one {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+.experience-area .experience-two {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
